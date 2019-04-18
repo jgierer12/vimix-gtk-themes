@@ -1015,12 +1015,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 /* TOP BAR */
 #panel {
-  background-color: #282828;
+  background-color: rgba(0, 0, 0, 0.45);
   /* transition from solid to transparent */
   transition-duration: 250ms;
   font-weight: bold;
   height: 32px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 5px rgba(0, 0, 0, 0.24);
 }
 
 #panel:overview, #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
@@ -1129,7 +1128,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel.solid {
-  background-color: #282828;
+  background-color: rgba(0, 0, 0, 0.45);
   /* transition from transparent to solid */
   transition-duration: 250ms;
   background-gradient-direction: none;
@@ -1141,7 +1140,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel.solid .panel-corner {
-  -panel-corner-background-color: #282828;
+  -panel-corner-background-color: rgba(0, 0, 0, 0.45);
 }
 
 #panel.solid .panel-button {
@@ -1641,10 +1640,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .window-close {
-  transition-duration: 0ms;
+  transition-duration: 225ms;
   height: 42px;
   width: 42px;
   -shell-close-overlap: 20px;
+  -st-background-image-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
   border: none;
   border-image: none;
   box-shadow: none;
@@ -2363,7 +2363,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #keyboard {
-  background-color: #282828;
+  background-color: rgba(0, 0, 0, 0.45);
 }
 
 .keyboard-layout {
@@ -2394,9 +2394,9 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .keyboard-key:grayed {
-  background-color: #282828;
+  background-color: rgba(0, 0, 0, 0.45);
   color: #FFFFFF;
-  border-color: #282828;
+  border-color: rgba(0, 0, 0, 0.45);
 }
 
 .keyboard-key.default-key {
@@ -2456,7 +2456,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .keyboard-subkeys {
   color: inherit;
   -arrow-border-radius: 3px;
-  -arrow-background-color: #282828;
+  -arrow-background-color: rgba(0, 0, 0, 0.45);
   -arrow-border-width: 0;
   -arrow-border-color: transparent;
   -arrow-base: 20px;

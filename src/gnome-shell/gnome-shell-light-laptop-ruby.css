@@ -1020,7 +1020,6 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   transition-duration: 250ms;
   font-weight: bold;
   height: 28px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 5px rgba(0, 0, 0, 0.24);
 }
 
 #panel:overview, #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
@@ -1641,10 +1640,11 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .window-close {
-  transition-duration: 0ms;
+  transition-duration: 225ms;
   height: 42px;
   width: 42px;
   -shell-close-overlap: 20px;
+  -st-background-image-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
   border: none;
   border-image: none;
   box-shadow: none;
