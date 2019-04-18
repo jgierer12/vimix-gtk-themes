@@ -840,7 +840,7 @@ StScrollBar {
   transition-duration: 250ms;
   font-weight: bold;
   height: $menuitem_size;
-  box-shadow: 0 3px 3px rgba(black, 0.16), 0 3px 5px rgba(black, 0.24);
+  // box-shadow: 0 3px 3px rgba(black, 0.16), 0 3px 5px rgba(black, 0.24);
 
   &:overview,
   &.unlock-screen,
@@ -1347,7 +1347,7 @@ StScrollBar {
 //close buttons
 
 .window-close {
-  transition-duration: 0ms; // FIXME: unless disable the transition, button will distort when hovering
+  transition-duration: $longer_duration;
   height: 42px;
   width: 42px;
   -shell-close-overlap: 20px;

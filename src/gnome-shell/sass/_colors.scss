@@ -45,8 +45,8 @@ $alt_bg_color:     rgba($black, $lower_opacity);
 $inverse_bg_color: rgba($inverse_fg_color, 0.1);
 
 $panel_bg_color: rgba(black, 0.45);
-@if ($color == 'ruby' or $color == 'black') and $panel =='dark' { $panel_bg_color: #282828; }
-@if ($color == 'doder' or $color == 'beryl') and $panel =='dark' { $panel_bg_color: #27282d; }
+// @if ($color == 'ruby' or $color == 'black') and $panel =='dark' { $panel_bg_color: #282828; }
+// @if ($color == 'doder' or $color == 'beryl') and $panel =='dark' { $panel_bg_color: #27282d; }
 
 $keyboard_bg_color:  if($variant == 'light', $grey_50, fade($grey_600));
 $alt_keyboard_bg_color:  if($variant == 'light', $grey_300, fade($grey_900));
