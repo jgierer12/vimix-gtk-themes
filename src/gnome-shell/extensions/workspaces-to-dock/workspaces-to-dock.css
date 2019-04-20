@@ -24,7 +24,7 @@
 }
 
 #workspacestodockDock:overview .workspace-thumbnails {
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.1); */
 }
 
 #workspacestodockDock.fullheight:overview .workspace-thumbnails {
@@ -36,7 +36,8 @@
 }
 
 #workspacestodockDock.right .workspace-thumbnail-indicator {
-    border-left-width: 2px;
+    border-left-width: 4px;
+    background-color: rgba(255, 255, 255, 0.24);
 }
 
 #workspacestodockDock.left .workspace-thumbnail-indicator {
