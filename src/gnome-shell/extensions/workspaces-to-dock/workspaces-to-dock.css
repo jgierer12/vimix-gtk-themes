@@ -18,8 +18,9 @@
 }
 
 #workspacestodockDock .workspace-thumbnails {
-    background-color: #37474F;
-    background-color: rgba(0, 0, 0, 0.6);
+    /* background-color: #37474F;
+    background-color: rgba(0, 0, 0, 0.6); */
+    background-color: rgba(57,65,84, 0.95);
 }
 
 #workspacestodockDock:overview .workspace-thumbnails {
